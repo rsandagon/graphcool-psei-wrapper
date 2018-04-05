@@ -22,7 +22,7 @@ export default event => {
       });
 
       return {
-        data: {stocks: returnData}
+        data: {list: returnData}
       };
     });
 }
