@@ -1,3 +1,4 @@
+# A type that describes the Stocks
 type Stocks {
   id: ID! @isUnique
   name: String
@@ -8,6 +9,8 @@ type Stocks {
   percent_change: Float
 }
 
+# fetches the latest stock info.
+# needs {symbol: "{THE-STOCKS-SYMBOL}"}
 extend type Query {
   latestStocks(symbol: String!): Stocks!
 }

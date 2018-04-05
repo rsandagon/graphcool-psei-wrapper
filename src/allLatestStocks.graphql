@@ -1,3 +1,4 @@
+#todo, relational. Use array of type Stocks once permitted in graphcool
 type StockList {
   list: [Json!]
 }

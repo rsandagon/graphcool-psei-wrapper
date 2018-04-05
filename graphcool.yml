@@ -29,6 +29,11 @@ functions:
       code: src/allLatestStocks.js
     type: resolver
     schema: src/allLatestStocks.graphql
+  stocksOnDate:
+    handler:
+      code: src/stocksOnDate.js
+    type: resolver
+    schema: src/stocksOnDate.graphql  
 
 permissions:
   - operation: "*"
