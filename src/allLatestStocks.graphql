@@ -1,0 +1,7 @@
+type StockList {
+  list: [Json!]
+}
+
+extend type Query {
+  allLatestStocks: StockList
+}

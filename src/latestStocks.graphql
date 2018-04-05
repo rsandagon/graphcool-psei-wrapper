@@ -1,0 +1,13 @@
+type Stocks {
+  id: ID! @isUnique
+  name: String
+  price: String
+  volume: Int
+  symbol: String
+  as_of: String
+  percent_change: Float
+}
+
+extend type Query {
+  latestStocks(symbol: String!): Stocks!
+}

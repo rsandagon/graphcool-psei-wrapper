@@ -1,2 +1,2 @@
 # graphcool-psei-wrapper
-A simple wrapper for PSEI
+A simple graphql wrapper for PSEI API

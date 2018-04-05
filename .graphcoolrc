@@ -1,0 +1,3 @@
+targets:
+  psei-wrapper: shared-eu-west-1/cjflunf0n3ndi010089cphl2g
+  default: psei-wrapper
